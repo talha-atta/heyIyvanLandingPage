@@ -1,0 +1,438 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Iyvan - Get updated store and restaurant information with just one text.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Iyvan" />
+    <meta name="google-site-verification" content="BXaOOmQfqtZfZfCJwctSL2yfmqcBrr7TrGW9MzJjHG8" />
+    <link rel="shortcut icon" type="image/png" href="landing_page/img/favicon.png"/>
+    <meta name="description" content="Mobile virtual assistant that will find an in network doctor and schedule appointments. Search by insurance, ZIP, and specialty. Free." />
+
+    <meta content="Iyvan is a mobile virtual assistant to find the best doctor and book an appointment! Recommendations are based on insurance, location, specialty, and price. it&#39;s completely free to use." property="og:description">
+
+    <meta name="keywords" content="Iyvan, Dental, Dentist, Dentists, Online, Mobile, Assistant, Instant, Instantly, appointment, DDS, DMD, Teeth, Teeth Whitening, Dental Emergency, Manhattan, Orthodontist, Braces, Invisalign, San Francisco, SF, Bay Area, NYC, New York, Insurance,  Metlife, Cigna, Delta Dental, Aetna, Guardian, doctor review, doctor recommendation " />
+
+
+    <meta name="apple-itunes-app" content="app-id=1118831181">
+
+    <meta property="fb:app_id" content="1748743698686949" />
+    <meta property="og:image" content="http://www.heyIyvan.com/landing_page/img/characteranim.png" />
+    <link href="landing_page/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+
+    <link href="landing_page/css/theme-fairsky.css" rel="stylesheet" type="text/css" media="all"/>
+    
+    <link href="landing_page/css/themify-icons.css" rel="stylesheet" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' type="text/css" rel='stylesheet'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.js"></script>
+	  <script src="landing_page/bower_components/typed.js/dist/typed.min.js"></script>
+    <script src="landing_page/js/main.js"></script>
+
+      <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+  <!-- Compiled and minified JIyvanScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+<!-- Custom CSS to overwrite everything -->
+<link href="landing_page/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '659122464229094');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=659122464229094&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+  </head>
+  <body id="body">
+    <script>
+      $(function(){
+          $(".element").typed({
+            strings: ["^500<span class='logo_typed'>Iyvan</span> <span class='title_text'>,^400 how long do I need to wait in line if I go to </span>"],
+            typeSpeed: -5,
+            callback: function() {
+              setTimeout(function() {
+                $('#contact_form').removeClass('hidden');
+                $('.features').removeClass('hidden');
+                $('.navbar').removeClass('hidden');
+                $('footer').removeClass('hidden');
+              }, 800);
+              $('.cover').delay(800).fadeOut(1000);
+              setTimeout(function() {
+                document.getElementById('animation').play()
+              }, 1000);
+              $('.typed-cursor').fadeOut(0);
+              // $('#animated_words').replaceWith("<span class='rw-words rw-words-2'><span>sugar</span><span>spice</span><span>colors</span><span>happiness</span><span>wonder</span><span>happiness</span></span>");
+
+              $('#animated_words').typed({
+                strings: ["<span class='specialist'>Costco</span>?^2000",
+                          "<span class='specialist'>Nofrills</span>?^2000", 
+                          "<span class='specialist'>Walmart</span>?^2000",
+                          "<span class='specialist'>Shoppers</span>?^2000",
+                          "<span class='specialist'>Food Basic</span>?^2000",
+                          "<span class='specialist'>GNC</span>?^2000",
+                          "<span class='specialist'>McDonalds</span>?^2000",],
+
+                typeSpeed: 10,
+                backSpeed: 10,
+                loop: true
+              })
+            }
+          });
+      });
+    </script>
+			
+<!--     <div class="custom_navbar navbar navbar-default navbar-static-top">
+      <div class="cover" style="opacity:1;"></div>
+     <div class="navbar-header"><a class="navbar-brand" href="#"><span class='logo_typed'>Iyvan</span></a>
+        <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <div class="navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">TEAM</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+	
+  	<div class="main-container">
+    	<section class="features features-14">
+  			<div class="container">
+  				<div class="row v-align-children">
+  					<div class="col-md-8 col-sm-8">
+              <div class="typed_wrapper">
+    						<span class="element nofade lead"></span>
+                <span id='animated_words' class="title_text nofade lead"></span>
+              </div>
+              <div class="cover" style="opacity:1;"></div>
+  						<p class="lead typed_subtitle">
+  							Times are tough due to Covid-19, and information is changing fast. Iyvan finds you the most up to date store hours, wait times, and in store stock.</p>
+              
+
+<div class="formcontainer_cus">
+  <div class="waitlistform1">
+    <div class="vc_col-xs-12">
+      <form id="waitlist1">  
+        <!-- <div class="input-field"> -->
+          <!-- <i class="fa fa-mobile material-icons prefix" aria-hidden="true"></i>  -->
+         <!--<input id="waitlistphonenumber1" class="waitlist_input" name="phoneNumber" type="text" placeholder="Phone number"> -->
+<!--           <label class="custom_input_label" for="waitlistphonenumber1">Phone </label>
+        </div> -->
+        <button id="waitlistbutton1" class="cusbutton2">Text us here:</button> <span class="success_message">+1 647 493 1795 </span>
+        
+        <div id="successMessage" class="hidden"> <span class="success_message">We sent you a text with a download link 😁</span></div>
+      </form>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="vc_icon_element vc_icon_element-outer anchor-item vc_icon_element-align-center">
+      <div class="vc_icon_element-inner vc_icon_element-color-white vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+      </div>
+    </div>
+  </div>
+</div>
+
+  					</div>
+  				
+  					<div class="col-md-6 col-sm-6">
+            <div class="cover" style="opacity:1;"></div>
+  						<!-- <img alt="Cinema Display" src="img/characteranim.gif"> -->
+  						<div class="overflower">
+                  <div class="cover" style="opacity:1;"></div>
+  				        	<div class="overflowed overflowed--centered waypoint--fade-in waypoint--fade-in--active">
+  								<video id="animation" preload="auto" loop poster="landing_page/img/iyvan.png">
+  								</video>          
+  							</div>
+  				    </div>
+  					</div>
+  				</div>
+  			</div>
+  		</section>
+
+<!--       <section class="cta cta-4" style="background-color:white;">
+            <div class="col-sm-12 text-center">
+              <img alt="Affiliate" src="/landing_page/img/l1.png">
+              <img alt="Affiliate" src="/landing_page/img/l2.png">
+              <img alt="Affiliate" src="/landing_page/img/l3.png">
+              <img alt="Affiliate" src="/landing_page/img/l4.png">
+              <img alt="Affiliate" src="/landing_page/img/l5.png">
+            </div>
+        
+        
+      </section> -->
+
+<!--
+     <section class="features features-4 hidden">
+      <div class="cover" style="opacity:1;"></div>
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-sm-6 text-center feature">
+            <img alt="Feature Image" src="landing_page/img/keyboard@2x.png">
+          </div>
+    
+          <div class="col-sm-6 col-md-5 col-md-offset-1 feature">
+
+            <h1 class="feature_title_text">YOUR <br/><span class="highlight_text">ASSISTANT</span></h1>
+            <div class="feature_detail">
+              <p>Just select the specialist, procedure, and time and we’ll book an appointment with an affordable and high quality doctor.</p> 
+              <p>You’ll be able to add any extra information you want.&nbsp;</p>
+            </div>
+            <hr class="feature_separator" align="left">
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+      
+<!--     <section class="features features-5 hidden">
+=======
+    <section class="features features-5 hidden">
+>>>>>>> ff323c79bffa37332015bbdaa5d28c496a9a03f3
+      <div class="cover" style="opacity:1;"></div>
+      <div class="container">
+        <div class="row v-align-children">
+      
+          <div class="col-sm-3 col-md-3 feature text-left">
+            <h1 class="feature_title_text">OUR <br/><span class="highlight_text">DATA</span></h1>
+            <div class="feature_detail">
+              <p>We use data to find you the most affordable, high quality in-network doctors.</p>
+              <p>We do so by looking at three factors: the number of procedures each doctor has performed, price, and friend recommendations.</p>
+            </div>
+
+            <hr class="feature_separator" align="left">
+
+          </div>
+        
+          <div class="col-sm-8 col-md-offset-1 text-left feature feature_breakdown">
+            <div class="feature_breakdown_wrapper">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="/landing_page/img/magnifying@2x.png">
+                  <div class="feature_breakdown_header">PROCEDURE SPECIFIC</div>
+                  <hr align="left">
+                  <div class="feature_breakdown_detail">
+                    We make sure the doctor is an expert at that procedure by looking at how many procedures they’ve performed that year.
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <img src="/landing_page/img/network@2x.png">
+                  <div class="feature_breakdown_header">IN NETWORK</div>
+                  <hr align="left">
+                  <div class="feature_breakdown_detail">
+                    We only send you to in-network doctors so you don’t get hit with unexpected costs.
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="/landing_page/img/wordofmouth@2x.png">
+                  <div class="feature_breakdown_header">WORD OF MOUTH</div>
+                  <hr align="left">
+                  <div class="feature_breakdown_detail">
+                    The best recommendations are always from friends. That’s why we weigh friend recommendations more in our algorithm.
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <img src="/landing_page/img/price@2x.png">
+                  <div class="feature_breakdown_header">PRICE</div>
+                  <hr align="left">
+                  <div class="feature_breakdown_detail">
+                    We do price comparisons to make sure you’re going to the best doctor with the lowest contracted rates. 
+                  </div>
+                </div>
+              </div>
+<<<<<<< HEAD
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section> -->
+<!--
+    <section class="features features-3 hidden">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+              <h1 class="feature_title_text">OUR <span class="highlight_text">DATA</span></h1>
+              <div class="feature_detail">
+              <p>We use data to find you the most affordable, high quality in-network doctors.</p>
+              <p>We do so by looking at three factors: the number of procedures each doctor has performed, price, and friend recommendations.</p>
+            </div>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="col-sm-4 text-center feature">
+              <i class="ti ti-search"></i>
+              <h5>Procedure Specific</h5>
+              <div class="feature_breakdown_detail">
+                    We make sure the doctor is an expert at that procedure by looking at how many procedures they’ve performed that year.
+                  </div>
+            </div>
+          
+            <div class="col-sm-4 text-center feature">
+              <i class="ti ti-themify-favicon"></i>
+              <h5>Better Recommendations</h5>
+              <div class="feature_breakdown_detail">
+                    We only send you to in-network doctors so you don’t get hit with unexpected costs. We also weigh your friend's recommendations more, effectively creating a word of mouth network. 
+                  </div>
+            </div>
+          
+            <div class="col-sm-4 text-center feature">
+              <i class="ti ti-money"></i>
+              <h5>Lowest Price</h5>
+              <p>We do price comparisons to make sure you’re going to the best doctor with the lowest contracted rates.
+</p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+-->
+<!--     <section class="features features-4 hidden">
+      <div class="cover" style="opacity:1;"></div>
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-sm-6 text-center feature">
+            <img alt="Feature Image" src="/landing_page/img/keyboard@2x.png">
+          </div>
+    
+          <div class="col-sm-6 col-md-5 col-md-offset-1 feature">
+            <h1 class="feature_title_text">IMPACT<br/><span class="highlight_text">HEALTH</span></h1>
+            <div class="feature_detail">
+              <p>Employees don’t understand healthcare. They’re often overpaying. We help fix that.</p> 
+              <p>Play with the calculator to see the potential benefits.</p>
+>>>>>>> ff323c79bffa37332015bbdaa5d28c496a9a03f3
+            </div>
+            <hr class="feature_separator" align="left">
+          </div>
+<<<<<<< HEAD
+        </div>  
+      </section>
+
+<!--     <section class="features features-4 hidden">
+      <div class="cover" style="opacity:1;"></div>
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-sm-6 text-center feature">
+            <img alt="Feature Image" src="/landing_page/img/keyboard@2x.png">
+          </div>
+    
+          <div class="col-sm-6 col-md-5 col-md-offset-1 feature">
+            <h1 class="feature_title_text">IMPACT<br/><span class="highlight_text">HEALTH</span></h1>
+            <div class="feature_detail">
+              <p>Employees don’t understand healthcare. They’re often overpaying. We help fix that.</p> 
+              <p>Play with the calculator to see the potential benefits.</p>
+            </div>
+            <hr class="feature_separator" align="left">
+          </div>
+=======
+>>>>>>> ff323c79bffa37332015bbdaa5d28c496a9a03f3
+        </div>
+      </div>
+    </section> -->
+      
+  <!--  
+    <section id="contact_form" class="features features-4 hidden" style="padding-bottom:200px;">
+      <div class="cover" style="opacity:1;"></div>
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-sm-6 text-left feature">
+            <h1 class="feature_title_text">GET IN <br/><span class="highlight_text">TOUCH</span></h1>
+          </div>
+    
+          <div class="col-sm-6 col-md-5 col-md-offset-1 feature">
+            <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
+
+              <div class="input-field">
+                <label for="i2" class="custom_input_label">Name</label>
+                <input name="name" type="text" id="i2" class="validate validate-required signup-name-field">
+              </div>
+
+              <div class="input-field">
+                <label for="i3" class="custom_input_label">Email</label>
+                <input name="email" type="email" id="i3" class="validate validate-required signup-email-field">
+              </div>
+
+              <div class="input-field">
+                <label for="i5" class="custom_input_label">Your Message</label>
+                <textarea name="message" class="materialize-textarea" id="i5" class="validate validate-required"></textarea>
+              </div>
+
+
+<!--               <input type="text" name="name" class="signup-name-field validate-required" placeholder="Your Name">
+              <input type="text" name="email" class="validate-required validate-email signup-email-field" placeholder="Email Address">
+              <textarea rows="4" name="message" class="validate-required" placeholder="Your Message"></textarea> -->
+              <!-- <input type="submit" value="Send 📨" class="contact_form_submit"> 
+<!--               <iframe srcdoc="" class="mail-list-form">
+              </iframe> 
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    <footer class="footer_custom hidden">
+      
+      <p>&copy; 2020 Iyvan Labs, Inc.</p>
+    </footer>
+<!-- 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script> -->
+    <script src="landing_page/js/bootstrap.min.js"></script>
+    <script src="landing_page/js/flexslider.min.js"></script>
+    <script src="landing_page/js/smooth-scroll.min.js"></script>
+    <script src="landing_page/js/placeholders.min.js"></script>
+    <script src="landing_page/js/twitterfetcher.min.js"></script>
+    <script src="landing_page/js/spectragram.min.js"></script>
+    <script src="landing_page/js/parallax.js"></script>
+    <script src="landing_page/js/scripts.js"></script>
+
+    <script>
+      $(window).load(function() {
+        var phones = [{ "mask": "(###) ###-####"}, { "mask": "(###) ###-##############"}];
+        $('#waitlistphonenumber1').inputmask({ 
+          mask: phones, 
+          greedy: false, 
+          placeholder: '_',
+          definitions: { '#': { validator: "[0-9]", cardinality: 1}}
+        });
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-73812833-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
+
+				
